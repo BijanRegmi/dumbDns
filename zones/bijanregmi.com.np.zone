@@ -1,0 +1,22 @@
+{
+    "$origin": "bijanregmi.com.np.",
+    "$ttl": 1200,
+    "soa": {
+        "mname": "ns1.bijanregmi.com.np.",
+        "rname": "mail.bijanregmi.com.np.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.bijanregmi.com.np." },
+        { "host": "ns2.bijanregmi.com.np." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "192.168.1.100" }
+    ]
+}
